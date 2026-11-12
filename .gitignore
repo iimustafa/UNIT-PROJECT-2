@@ -218,3 +218,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual Environments
+venv/
+.venv/
+
+# Django
+media/
+
+# Video Files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mpeg
+*.mpg
+
+# macOS
+.DS_Store
+
+# Environment Variables
+.env
