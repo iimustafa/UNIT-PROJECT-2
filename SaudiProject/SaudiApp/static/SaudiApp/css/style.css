@@ -15114,3 +15114,461 @@ body.light-mode[class*="page-"] .main-header {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
+
+/* HERO TEXT — BOTH THEMES */
+
+.hero .hero-content,
+.hero .hero-content h1,
+.hero .hero-content .hero-eyebrow,
+.hero .hero-content .hero-description {
+    color: #ffffff !important;
+}
+
+.hero .hero-content h1 {
+    text-shadow: 0 3px 18px rgba(0, 0, 0, 0.35);
+}
+
+.hero .hero-content .hero-eyebrow,
+.hero .hero-content .hero-description {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* THEME TOGGLE — TRANSPARENT DESIGN */
+
+.main-header .theme-toggle {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent !important;
+    border: 1px solid rgba(128, 128, 128, 0.25) !important;
+    border-radius: 50%;
+
+    color: var(--text-color, inherit) !important;
+    cursor: pointer;
+
+    transition:
+        color .3s ease,
+        border-color .3s ease,
+        background .3s ease,
+        transform .3s ease;
+}
+
+.main-header .theme-toggle:hover {
+    background: rgba(128, 128, 128, 0.12) !important;
+    border-color: currentColor !important;
+    transform: rotate(15deg);
+}
+
+.main-header .theme-toggle .theme-icon {
+    font-size: 20px;
+    line-height: 1;
+    color: inherit !important;
+}
+
+/* DARK MODE */
+body:not(.light-mode) .main-header .theme-toggle {
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* LIGHT MODE */
+body.light-mode .main-header .theme-toggle {
+    color: #252a35 !important;
+    border-color: rgba(37, 42, 53, 0.25) !important;
+}
+
+body.light-mode .main-header .theme-toggle:hover {
+    background: rgba(37, 42, 53, 0.08) !important;
+}
+
+/* TRANSPARENT HEADER */
+.main-header .theme-toggle {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.main-header .theme-toggle .theme-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform .35s ease;
+}
+
+.main-header .theme-toggle:hover .theme-icon {
+    transform: rotate(45deg);
+}
+
+.theme-toggle .theme-icon {
+    width: 21px;
+    height: 21px;
+    transition: transform .35s ease;
+}
+
+.theme-toggle:hover .theme-icon {
+    transform: rotate(-15deg) scale(1.1);
+}
+
+/* FORCE NEW THEME ICON */
+.main-header .theme-toggle {
+    width: 42px !important;
+    height: 42px !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 1px solid currentColor !important;
+    border-radius: 50% !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+
+.main-header .theme-toggle .theme-icon {
+    display: block !important;
+    width: 23px !important;
+    height: 23px !important;
+    min-width: 23px !important;
+    color: inherit !important;
+    stroke: currentColor;
+    fill: none !important;
+}
+
+body:not(.light-mode) .main-header .theme-toggle {
+    color: #ffffff !important;
+}
+
+body.light-mode .main-header .theme-toggle {
+    color: #252a35 !important;
+}
+
+.main-header .theme-toggle:hover {
+    background: rgba(128, 128, 128, 0.12) !important;
+    transform: rotate(20deg);
+}
+
+/* THEME BUTTON - NEW ICON */
+#theme-toggle {
+    position: relative !important;
+    font-size: 0 !important;
+}
+
+#theme-toggle svg,
+#theme-toggle .theme-icon {
+    display: none !important;
+}
+
+#theme-toggle::before {
+    content: "◐" !important;
+    font-family: Arial, sans-serif;
+    font-size: 27px !important;
+    line-height: 1;
+    color: currentColor;
+    display: block;
+}
+
+#theme-toggle:hover::before {
+    transform: rotate(180deg);
+}
+
+#theme-toggle::before {
+    transition: transform .35s ease;
+}
+
+#theme-toggle {
+    position: relative !important;
+    font-size: 0 !important;
+}
+
+#theme-toggle svg,
+#theme-toggle .theme-icon,
+#theme-toggle span,
+#theme-toggle i {
+    display: none !important;
+}
+
+#theme-toggle::before {
+    content: "◐" !important;
+    display: block !important;
+    font-size: 27px !important;
+    line-height: 1 !important;
+    color: currentColor !important;
+}
+
+/* THEME TOGGLE - ROUNDED RECTANGLE */
+
+#theme-toggle {
+    width: 48px !important;
+    height: 34px !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(128, 128, 128, 0.35) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    color: inherit !important;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+#theme-toggle svg,
+#theme-toggle span,
+#theme-toggle i {
+    display: none !important;
+}
+
+#theme-toggle::before {
+    content: "◐" !important;
+    display: block !important;
+    font-size: 23px !important;
+    line-height: 1 !important;
+    color: currentColor !important;
+}
+
+#theme-toggle:hover {
+    background: rgba(128, 128, 128, 0.12) !important;
+    border-color: currentColor !important;
+}
+
+/* CLEAN RECTANGULAR THEME BUTTON */
+
+#theme-toggle {
+    width: 44px !important;
+    height: 36px !important;
+    min-width: 44px !important;
+    padding: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border: 1px solid currentColor !important;
+    border-radius: 8px !important;
+    background: transparent !important;
+
+    box-shadow: none !important;
+    outline: none !important;
+    transform: none !important;
+
+    color: inherit !important;
+    overflow: hidden !important;
+}
+
+#theme-toggle::before {
+    content: "◐" !important;
+    font-size: 21px !important;
+    line-height: 1 !important;
+    display: block !important;
+}
+
+#theme-toggle::after {
+    content: none !important;
+}
+
+#theme-toggle svg,
+#theme-toggle span,
+#theme-toggle i {
+    display: none !important;
+}
+
+#theme-toggle:hover {
+    background: rgba(128, 128, 128, 0.10) !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* FIX THEME ICON ALIGNMENT */
+#theme-toggle {
+    width: 44px !important;
+    height: 36px !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+
+#theme-toggle::before {
+    content: "☾" !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 19px !important;
+    line-height: 1 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transform: none !important;
+}
+
+#theme-toggle::after {
+    display: none !important;
+    content: none !important;
+}
+
+#theme-toggle:hover {
+    transform: none !important;
+}
+
+/* THEME TOGGLE - TEXT BUTTON */
+
+#theme-toggle {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    gap: 9px !important;
+
+    width: auto !important;
+    min-width: 125px !important;
+    height: 38px !important;
+    padding: 0 13px !important;
+
+    border: 1px solid currentColor !important;
+    border-radius: 9px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    color: inherit !important;
+    cursor: pointer;
+    overflow: hidden;
+
+    transition:
+        background .3s ease,
+        color .3s ease,
+        border-color .3s ease,
+        transform .3s ease !important;
+}
+
+#theme-toggle .theme-label {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+#theme-toggle .theme-icon {
+    display: inline-block !important;
+    font-size: 19px;
+    line-height: 1;
+    transition: transform .45s ease;
+}
+
+#theme-toggle:hover {
+    background: rgba(128, 128, 128, .12) !important;
+}
+
+#theme-toggle:hover .theme-icon {
+    transform: rotate(90deg) scale(1.15);
+}
+
+/* DARK MODE */
+body:not(.light-mode) #theme-toggle {
+    color: #fff !important;
+    border-color: rgba(255,255,255,.3) !important;
+}
+
+/* LIGHT MODE */
+body.light-mode #theme-toggle {
+    color: #252a35 !important;
+    border-color: rgba(37,42,53,.25) !important;
+}
+
+/* THEME CHANGE ANIMATION */
+body,
+.main-header,
+.main-footer,
+#theme-toggle {
+    transition:
+        background-color .45s ease,
+        color .45s ease,
+        border-color .45s ease !important;
+}
+
+body.light-mode #theme-toggle .theme-icon {
+    transform: rotate(180deg);
+}
+
+/* REMOVE OLD THEME ICONS */
+#theme-toggle::before,
+#theme-toggle::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* SHOW ONE ICON ONLY */
+#theme-toggle .theme-icon {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* THEME BUTTON */
+#theme-toggle {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+
+    width: 125px !important;
+    height: 38px !important;
+    padding: 0 12px !important;
+
+    border: 1px solid currentColor !important;
+    border-radius: 9px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    color: inherit !important;
+    cursor: pointer;
+    direction: ltr;
+    transition: all .35s ease !important;
+}
+
+#theme-toggle .theme-label {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+#theme-toggle .theme-icon {
+    display: inline-block !important;
+    font-size: 19px;
+    line-height: 1;
+    transition: transform .4s ease;
+}
+
+#theme-toggle::before,
+#theme-toggle::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* NIGHT MODE: TEXT LEFT, ICON RIGHT */
+body:not(.light-mode) #theme-toggle {
+    flex-direction: row !important;
+}
+
+/* DAY MODE: ICON LEFT, TEXT RIGHT */
+body.light-mode #theme-toggle {
+    flex-direction: row-reverse !important;
+}
+
+body.light-mode #theme-toggle .theme-label::after {
+    content: "";
+}
+
+body.light-mode #theme-toggle .theme-icon {
+    transform: rotate(180deg);
+}
+
+#theme-toggle:hover {
+    background: rgba(128,128,128,.12) !important;
+}
+
+#theme-toggle:hover .theme-icon {
+    transform: rotate(25deg) scale(1.12);
+}
+
