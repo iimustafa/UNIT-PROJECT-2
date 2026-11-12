@@ -62,7 +62,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/kingdom.png">
-  <img alt="المملكة وتاريخها" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/kingdom.png" width="100%">
+  <img alt="المملكة وتاريخها" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/kingdom.png" width="100%">
 </picture>
 
 ### السياحة والترفيه
