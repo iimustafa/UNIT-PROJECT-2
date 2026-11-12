@@ -54,63 +54,63 @@
 ### الصفحة الرئيسية
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/home.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/home.png">
   <img alt="الصفحة الرئيسية - الوضع النهاري" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/home.png" width="100%">
 </picture>
 
 ### المملكة وتاريخها
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/kingdom.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/kingdom.png">
   <img alt="المملكة وتاريخها" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/kingdom.png" width="100%">
 </picture>
 
 ### السياحة والترفيه
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/tourism.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/tourism.png">
   <img alt="السياحة والترفيه" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/tourism.png" width="100%">
 </picture>
 
 ### الرياضة
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/sports.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/sports.png">
   <img alt="صفحة الرياضة" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/sports.png" width="100%">
 </picture>
 
 ### الثقافة والمعرفة
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/culture.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/culture.png">
   <img alt="الثقافة والمعرفة" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/culture.png" width="100%">
 </picture>
 
 ### البحر الأحمر
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/red-sea.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/red-sea.png">
   <img alt="صفحة البحر الأحمر" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/red-sea.png" width="100%">
 </picture>
 
 ### العلا
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/alula.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/alula.png">
   <img alt="صفحة العلا" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/alula.png" width="100%">
 </picture>
 
 ### الدرعية
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/diriyah.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/diriyah.png">
   <img alt="صفحة الدرعية" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/diriyah.png" width="100%">
 </picture>
 
 ### الأحساء
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/dark/al-ahsa.png">
+  <source media="(prefers-color-scheme: dark)" srcset="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/al-ahsa.png">
   <img alt="صفحة الأحساء" src="SaudiProject/SaudiApp/static/SaudiApp/images/screenshot/light/al-ahsa.png" width="100%">
 </picture>
 
