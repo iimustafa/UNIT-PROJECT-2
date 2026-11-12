@@ -1,0 +1,69 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}هنا السعودية{% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'SaudiApp/css/style.css' %}">
+</head>
+
+<body>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+
+        <a href="{% url 'home' %}" class="site-logo">
+            <span class="logo-mark">هنا</span>
+            <span class="logo-name">السعودية</span>
+            <span class="logo-caption">اكتشف المملكة</span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#home" class="nav-link active">الرئيسية</a>
+            <a href="#experiences" class="nav-link">اكتشف المملكة</a>
+            <a href="#history" class="nav-link">تاريخنا</a>
+            <a href="#tourism" class="nav-link">وجهاتنا</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                type="button"
+                aria-label="تغيير الوضع"
+                title="تغيير الوضع"
+            >
+                <span class="theme-icon">☾</span>
+            </button>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="فتح القائمة"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+    <script src="{% static 'SaudiApp/js/main.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+:root{--fb-text-primary:#000;--fb-text-secondary:#4b4b4b;--fb-text-option:rgba(47,43,61,.9);--fb-bg-white:#fff;--fb-accent-bg:#e5e5e5;--fb-star-color:#fa783c;--fb-spacing-xs:4px;--fb-spacing-sm:8px;--fb-spacing-md:16px;--fb-spacing-lg:24px;--fb-spacing-xl:32px;--fb-border-radius:8px;--fb-button-min-height:34px;--fb-popup-width-desktop:453px;--fb-popup-width-mobile:327px;--fb-font-family:"Saudi Sans VF",Open Sans,sans-serif;--fb-font-size-sm:12px;--fb-font-size-base:14px;--fb-font-size-lg:18px}#fbjs,#fbjs *,#formbricks-modal-container,#formbricks-modal-container *{--brand:var(--color-theme-100)!important;--primary:var(--color-theme-100)!important;--fb-brand-color:rgb(var(--color-theme-100))!important;--fb-survey-brand-color:rgb(var(--color-theme-100))!important;--fb-accent-background-color:var(--fb-accent-bg)!important;--accent-bg:rgb(var(--color-theme-100))!important;--fb-survey-bg:var(--fb-bg-white)!important;--survey-bg:255 255 255!important;--text-base:var(--fb-font-size-sm)!important;--fb-border-radius:8px!important;--color-yellow-400:var(--fb-star-color)!important;--fb-option-padding-x:var(--fb-spacing-xs)!important;--fb-option-padding-y:10px!important;--fb-button-bg-color:rgb(var(--color-theme-100))!important;--fb-button-text-color:var(--fb-bg-white)!important;--fb-progress-indicator-bg-color:rgb(var(--color-theme-100))!important;--fb-progress-track-bg-color:var(--fb-accent-bg)!important;--fb-input-padding-x:var(--fb-spacing-md)!important;--fb-input-padding-y:var(--fb-spacing-md)!important;--fb-option-border-color:color-mix(in srgb,var(--fb-option-bg-color) 95%,#000 5%)!important}@layer vs-formbricks-compat{:where(#fbjs.formbricks-form .bg-survey-bg.overflow-auto.px-4),:where(#fbjs.formbricks-form .bg-survey-bg.overflow-auto.px-4) *{--spacing:var(--fb-spacing-xs)!important}:where(#fbjs .bg-accent-bg.h-2,#fbjs .bg-brand.h-2,#fbjs .progress-track.h-2,#fbjs .progress-indicator,#fbjs.formbricks-form .text-brand.flex.flex-col.items-center.justify-center,#fbjs.formbricks-form .my-auto .min-h-40,#fbjs.formbricks-form .my-auto .group\/image),:where(#fbjs .bg-accent-bg.h-2,#fbjs .bg-brand.h-2,#fbjs .progress-track.h-2,#fbjs .progress-indicator,#fbjs.formbricks-form .text-brand.flex.flex-col.items-center.justify-center,#fbjs.formbricks-form .my-auto .min-h-40,#fbjs.formbricks-form .my-auto .group\/image)
+		*{--spacing:1px!important}:where(#Overall-Quality #fbjs.formbricks-form .text-center .min-h-40,#Overall-Quality #fbjs.formbricks-form .text-center .group\/image),:where(#Overall-Quality #fbjs.formbricks-form .text-center .min-h-40,#Overall-Quality #fbjs.formbricks-form .text-center .group\/image)
+		*{--spacing:2px!important}:where(#fbjs) .leading-4{--tw-leading:calc(var(--spacing)*4)!important;line-height:calc(var(--spacing)*4)!important}:where(#fbjs) .leading-6{--tw-leading:calc(var(--spacing)*6)!important;line-height:calc(var(--spacing)*6)!important}:where(#fbjs) .group\/image{min-height:calc(var(--spacing)*40)!important}}#fbjs.formbricks-form .htmlbody{--tw-leading:calc(var(--spacing)*6);line-height:calc(var(--spacing)*6)}#fbjs input,#fbjs textarea{height:116px;max-height:116px;resize:none!important}#fbjs.formbricks-form input[type=text]:focus-visible,#fbjs.formbricks-form textarea:focus-visible{--fb-focus-ring-inner-width:0px;--fb-focus-ring-outer-width:0px}#fbjs.formbricks-form input[type=text]::-moz-placeholder,#fbjs.formbricks-form textarea::-moz-placeholder{--fb-input-placeholder-color:var(--fb-heading-color)!important;font-size:.875em!important;line-height:1.42857!important}#fbjs.formbricks-form input[type=text]::placeholder,#fbjs.formbricks-form textarea::placeholder{--fb-input-placeholder-color:var(--fb-heading-color)!important;font-size:.875em!important;line-height:1.42857!important}#fbjs div.group\/image{pointer-events:none!important}#Overall-Quality #fbjs.formbricks-form .relative.h-8.w-full button,#Overall-Quality #fbjs.formbricks-form [data-fb-part=button-close],#Overall-Quality #fbjs.formbricks-form button[aria-label="Close survey"]{pointer-events:auto!important;position:relative!important;z-index:20!important}#fbjs.formbricks-form,#fbjs.formbricks-form *{font-family:var(--fb-font-family)!important}#fbjs.formbricks-form .bg-survey-bg,#fbjs.formbricks-form .no-scrollbar.flex.w-full.flex-col{background-color:var(--fb-bg-white)!important}#fbjs.formbricks-form .bg-survey-bg.overflow-auto.px-4{--spacing:var(--fb-spacing-xs)!important}#Overall-Quality #fbjs.formbricks-form .sm\:max-w-sm{max-width:var(--fb-popup-width-desktop)!important;min-width:var(--fb-popup-width-desktop)!important}@media (max-width:640px){#Overall-Quality #fbjs.formbricks-form .sm\:max-w-sm{max-width:var(--fb-popup-width-mobile)!important;min-width:var(--fb-popup-width-mobile)!important}}#fbjs.formbricks-form [data-testid^=questionCard]{background:var(--fb-bg-white)!important;border-radius:var(--fb-border-radius)!important;overflow:hidden!important;padding-block-start:var(--fb-spacing-xl)!important;position:relative!important}#fbjs.formbricks-form [data-testid^=questionCard]:before{background-image:var(--formbricks-top-ornament-url);background-repeat:no-repeat;background-size:cover;border-start-end-radius:var(--fb-border-radius);border-start-start-radius:var(--fb-border-radius);content:"";height:15px;inset-inline-end:0;inset-inline-start:0;position:absolute;top:0;z-index:10}#Overall-Quality
+	#fbjs.formbricks-form
+	label.label-headline
+	p.fb-editor-paragraph,#Overall-Quality
+	#fbjs.formbricks-form
+	span.label-headline
+	p.fb-editor-paragraph{color:var(--fb-text-primary)!important;font-size:var(--fb-font-size-lg)!important;font-weight:700!important}#fbjs.formbricks-form
+	:is(span.label-headline,h2>label.label-headline)
+	p.fb-editor-paragraph
+	span,#fbjs.formbricks-form .text-center div[data-fb-part=description] p span,#fbjs.formbricks-form div.text-subheading p span{color:inherit!important;font-size:inherit!important;font-weight:inherit!important}#fbjs.formbricks-form
+	:is(div.text-subheading,.text-center div[data-fb-part=description])
+	p
+	:is(b,strong),#fbjs.formbricks-form
+	:is(span.label-headline,h2>label.label-headline)
+	p.fb-editor-paragraph
+	:is(b,strong),#fbjs.formbricks-form .text-center h2.label-headline :is(p,b){color:inherit!important;font-size:inherit!important}#fbjs.formbricks-form .text-center h2.label-headline.htmlbody{font-size:var(--text-base)!important}:is(#Overall-Quality,#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]>.relative>.w-full:has(.text-option-label),:is(#Overall-Quality,#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]>.relative>.w-full:has(.text-option-label)>label{direction:ltr!important}#fbjs.formbricks-form .space-y-2>div>div>span.label-card{--fb-element-upper-label-opacity:0.6;line-height:1.33333!important}#fbjs.formbricks-form fieldset .flex.w-full{gap:40px!important;justify-content:flex-start!important}#fbjs.formbricks-form fieldset .mt-4.flex.justify-between>span.label-card,#fbjs.formbricks-form fieldset span.label-default{color:var(--fb-text-secondary)!important;font-size:var(--fb-font-size-sm)!important;font-weight:400!important}#fbjs.formbricks-form
+	fieldset:not([role=radiogroup])>.relative>.space-y-2>:is(label,.rounded-option),#fbjs.formbricks-form fieldset.space-y-2 div.space-y-2>label,#fbjs.formbricks-form fieldset.space-y-2>label{--tw-border-style:none!important;border-width:0!important}#fbjs.formbricks-form
+	fieldset:not([role=radiogroup])>.relative>.space-y-2>:is(label,.rounded-option):focus-within,#fbjs.formbricks-form fieldset.space-y-2 div.space-y-2>label:focus-within,#fbjs.formbricks-form fieldset.space-y-2>label:focus-within{--tw-border-style:none!important;border-width:0!important}#fbjs.formbricks-form
+	fieldset:not([role=radiogroup])
+	label
+	span.text-option-label,#fbjs.formbricks-form fieldset.space-y-2 label span.text-option-label{font-size:var(--fb-font-size-base)!important;font-weight:400!important;--fb-option-label-color:var(--fb-text-option)!important}#fbjs .bg-accent-bg.h-2,#fbjs .bg-brand.h-2,#fbjs .progress-indicator,#fbjs .progress-track.h-2{--spacing:1px!important;--fb-progress-track-height:2px!important;border-radius:var(--fb-spacing-lg)!important}#fbjs.formbricks-form .flex.w-full.flex-col.items-end{align-items:center!important;flex-direction:row!important;justify-content:center!important}#fbjs.formbricks-form
+	.flex.w-full.flex-col.items-end>.bg-accent-bg.h-2.w-full,#fbjs.formbricks-form
+	.flex.w-full.flex-col.items-end>.progress-track.h-2.w-full{border-radius:var(--fb-spacing-lg)!important;flex:1!important;width:auto!important}#fbjs.formbricks-form
+	.flex.w-full.flex-col.items-end>.relative.w-full:has([data-fb-part=button-close]),#fbjs.formbricks-form .flex.w-full.flex-col.items-end>.relative.w-full.h-8{flex-shrink:0!important;width:auto!important}#fbjs.formbricks-form .flex.w-full.flex-row-reverse.justify-between{flex-direction:row-reverse!important;gap:var(--fb-spacing-md)!important;justify-content:flex-start!important;margin:0!important;padding-inline:0!important}#fbjs.formbricks-form .flex.w-full.flex-row-reverse.justify-between>div{flex-shrink:0!important;margin-inline-start:0!important;width:100%!important}#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between>button.text-heading,#fbjs.formbricks-form .flex.w-full.flex-row-reverse.justify-between>button{display:none!important;visibility:hidden!important}#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between
+	button.bg-brand,#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between
+	button.border-submit-button-border{font-size:var(--fb-font-size-sm)!important;font-weight:500!important;justify-content:center!important;min-height:var(--fb-button-min-height)!important;width:100%!important}#fbjs.formbricks-form button.bg-brand:hover,#fbjs.formbricks-form button.border-submit-button-border:hover{background-color:rgb(var(--color-theme-200))!important}#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between>div:only-child{margin-inline-start:0!important;max-width:100%!important;width:100%!important}#fbjs.formbricks-form .text-brand.flex.flex-col.items-center.justify-center{margin-bottom:var(--fb-spacing-lg)!important;min-height:unset!important;--spacing:1px!important}#fbjs.formbricks-form .my-auto .text-center div[data-fb-part=description],#fbjs.formbricks-form .my-auto .text-center div[data-fb-part=description] p,#fbjs.formbricks-form .my-auto div.text-subheading,#fbjs.formbricks-form .my-auto div.text-subheading p,#fbjs.formbricks-form .my-auto label.text-subheading,#fbjs.formbricks-form .my-auto label.text-subheading p{color:var(--fb-text-secondary)!important;font-size:var(--fb-font-size-base)!important;font-weight:400!important;text-align:center!important}#Overall-Quality #fbjs.formbricks-form .my-auto{padding-bottom:var(--fb-spacing-lg)!important}#fbjs.formbricks-form .my-auto .group\/image,#fbjs.formbricks-form .my-auto .min-h-40{min-height:unset!important;--spacing:1px!important}#Overall-Quality #fbjs.formbricks-form .text-center .group\/image,#Overall-Quality #fbjs.formbricks-form .text-center .min-h-40{--spacing:2px!important}#Overall-Quality #fbjs.formbricks-form .sm\:bottom-3.sm\:left-3,#Overall-Quality #fbjs.formbricks-form .sm\:bottom-3.sm\:right-3{border-bottom-right-radius:0!important;border-top-right-radius:0!important;bottom:unset!important;margin:0!important;right:0!important;top:20%!important}#Overall-Quality
+	#fbjs.formbricks-form
+	.sm\:bottom-3.sm\:left-3
+	[data-testid^=questionCard],#Overall-Quality
+	#fbjs.formbricks-form
+	.sm\:bottom-3.sm\:right-3
+	[data-testid^=questionCard]{border-bottom-right-radius:0!important;border-top-right-radius:0!important}@media (max-width:1024px){#Overall-Quality #fbjs.formbricks-form .sm\:bottom-3.sm\:left-3,#Overall-Quality #fbjs.formbricks-form .sm\:bottom-3.sm\:right-3{border-radius:var(--fb-border-radius)!important;left:50%!important;right:unset!important;top:50%!important;transform:translate(-50%,-50%)!important}#Overall-Quality
+		#fbjs.formbricks-form
+		.sm\:bottom-3.sm\:left-3
+		[data-testid^=questionCard],#Overall-Quality
+		#fbjs.formbricks-form
+		.sm\:bottom-3.sm\:right-3
+		[data-testid^=questionCard]{border-radius:var(--fb-border-radius)!important}#Overall-Quality #fbjs.formbricks-form fieldset .flex.w-full{gap:35px!important;padding-left:0!important;padding-right:0!important}#Overall-Quality #fbjs.formbricks-form fieldset .mt-4.flex.justify-between{padding-left:0!important;padding-right:0!important}}:is(#Content-Quality,#Overall-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.relative.h-8.w-full
+	button,:is(#Content-Quality,#Overall-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	button[aria-label="Close survey"]{pointer-events:auto!important;position:relative!important;z-index:20!important}.formbricks-embed-container{padding-block:50px;padding-inline:100px}:is(#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[data-testid^=questionCard]{padding-block-start:24px!important;padding-inline:64px!important}:is(#Content-Quality) #fbjs.formbricks-form [data-testid^=questionCard]{padding-block-start:24px!important;padding-inline-end:64px!important;padding-inline-start:32px!important}:is(#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	#questionCard-0{border:none!important;padding-inline-end:0!important}:is(#Content-Quality)
+	#fbjs.formbricks-form
+	#questionCard-0{border:none!important;padding-inline-end:0!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[data-testid^=questionCard]:before{display:none!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[data-testid^=questionCard]:after{background-image:var(--formbricks-side-ornament-url);background-repeat:no-repeat;background-size:cover;border-end-start-radius:var(--fb-border-radius);border-start-start-radius:var(--fb-border-radius);bottom:0;content:"";inset-inline-start:0;position:absolute;top:0;width:16px;z-index:10}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	label.label-headline
+	p.fb-editor-paragraph,:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	span.label-headline
+	p.fb-editor-paragraph{color:var(--fb-text-primary)!important;font-size:22px!important;font-weight:700!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[id^=questionCard-]:not(#questionCard-0)
+	label.label-headline
+	p.fb-editor-paragraph,:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[id^=questionCard-]:not(#questionCard-0)
+	span.label-headline
+	p.fb-editor-paragraph{font-size:18px!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.text-center
+	div.text-heading,:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.text-center
+	label.text-heading{margin-bottom:0!important;margin-top:3px!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:not(:has(fieldset))
+	.group\/image{display:none!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	[id^=questionCard-]:not(#questionCard-0)
+	.group\/image{display:none!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between{flex-direction:row-reverse!important;gap:16px!important;justify-content:flex-start!important;padding-inline:0!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between>div{flex-shrink:0!important;margin-inline-start:0!important;max-width:134px!important;width:auto!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between>button.text-heading{flex-shrink:0!important;max-width:134px!important;min-width:134px!important;width:auto!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between>div:only-child{margin-inline-start:auto!important;max-width:134px!important;width:auto!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between
+	button.bg-brand,:is(#Content-Quality,#Support-Services,#Visa-Application)
+	#fbjs.formbricks-form
+	.flex.w-full.flex-row-reverse.justify-between
+	button.border-submit-button-border{min-width:134px!important;width:100%!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:has(fieldset),:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]:not(:has(.text-option-label)){align-items:center!important;display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;gap:24px!important;justify-content:space-between!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:has(fieldset)>.space-y-2:has(.group\/image),:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]:not(:has(.text-option-label))>.space-y-2:has(.group\/image){align-items:center!important;display:flex!important;flex-direction:row!important;flex-shrink:1!important;gap:16px!important;margin-bottom:0!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:has(fieldset)>.space-y-2:has(.group\/image)>div>div,:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]:not(:has(.text-option-label))>.space-y-2:has(.group\/image)>div>div{display:none!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:has(fieldset)
+	.group\/image{flex-shrink:0!important;margin-bottom:0!important;min-height:auto!important;width:56px!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4:has(fieldset)
+	.group\/image
+	img{max-height:56px!important;-o-object-fit:contain!important;object-fit:contain!important;width:56px!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	.w-full.space-y-4>.relative.space-y-2:has(fieldset),:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]:not(:has(.text-option-label))>.relative{align-items:center!important;display:flex!important;flex-direction:column!important;flex-shrink:0!important;margin-top:0!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset.w-full
+	div.flex.w-full{gap:22px!important;padding-left:0!important;padding-right:0!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset.w-full
+	.mt-4.flex.justify-between{margin-top:0!important;padding-left:0!important;padding-right:0!important}:is(#Visa-Application,#Support-Services)
+	#fbjs.formbricks-form
+	fieldset[role=radiogroup]:not(:has(.text-option-label))>.relative>.mt-4.flex.justify-between{align-self:stretch!important}@media (max-width:1024px){:is(#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		[data-testid^=questionCard]{padding:32px 32px 24px!important}:is(#Content-Quality) #fbjs.formbricks-form [data-testid^=questionCard]{padding:32px 16px!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		[data-testid^=questionCard]:after{background-image:var(--formbricks-top-ornament-url)!important;border-end-start-radius:0!important;border-start-end-radius:var(--fb-border-radius)!important;border-start-start-radius:var(--fb-border-radius)!important;bottom:unset!important;height:15px!important;inset-inline-end:0!important;inset-inline-start:0!important;top:0!important;width:100%!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		label.label-headline
+		p.fb-editor-paragraph,:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		span.label-headline
+		p.fb-editor-paragraph{font-size:18px!important;font-weight:700!important;margin-bottom:16px!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		[id^=questionCard-]:not(#questionCard-0)
+		label.label-headline
+		p.fb-editor-paragraph,:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		[id^=questionCard-]:not(#questionCard-0)
+		span.label-headline
+		p.fb-editor-paragraph{font-size:16px!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between{box-sizing:border-box!important;flex-wrap:nowrap!important;padding-inline:0!important;width:100%!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between>div{flex-shrink:0!important;margin-inline-start:0!important;max-width:calc(50% - 8px)!important;width:calc(50% - 8px)!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between>button.text-heading{flex-shrink:0!important;max-width:calc(50% - 8px)!important;min-width:calc(50% - 8px)!important;width:calc(50% - 8px)!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between>div:only-child{margin-inline-start:0!important;max-width:100%!important;width:100%!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between
+		button.bg-brand,:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.flex.w-full.flex-row-reverse.justify-between
+		button.border-submit-button-border{max-width:100%!important;min-width:auto!important;width:100%!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		.w-full.space-y-4:has(fieldset),:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		fieldset[role=radiogroup]:not(:has(.text-option-label)){align-items:flex-start!important;display:flex!important;flex-direction:column!important;gap:16px!important;justify-content:flex-start!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		.w-full.space-y-4:has(fieldset)>.space-y-2:has(.group\/image),:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		fieldset[role=radiogroup]:not(:has(.text-option-label))>.space-y-2:has(.group\/image){align-items:flex-start!important;display:flex!important;flex-direction:column!important;gap:12px!important;margin-bottom:0!important;width:100%!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		.w-full.space-y-4:has(fieldset)
+		.group\/image{display:block!important;margin-bottom:0!important;min-height:auto!important;order:-1!important;width:56px!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		.w-full.space-y-4:has(fieldset)
+		.group\/image
+		img{max-height:56px!important;-o-object-fit:contain!important;object-fit:contain!important;width:56px!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		.w-full.space-y-4>.relative.space-y-2:has(fieldset),:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		fieldset[role=radiogroup]:not(:has(.text-option-label))>.relative{display:block!important;margin-top:0!important;width:100%!important}:is(#Visa-Application,#Support-Services)
+		#fbjs.formbricks-form
+		fieldset.w-full
+		div.flex.w-full{gap:40px!important;justify-content:unset!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.text-center{text-align:start!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.text-center>.space-y-6{align-items:flex-start!important;display:flex!important;flex-direction:column!important}:is(#Content-Quality,#Support-Services,#Visa-Application)
+		#fbjs.formbricks-form
+		.text-center
+		.group\/image{margin-inline:0!important;order:-1!important}}
